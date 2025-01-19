@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid Margin="10">
+        <StackPanel Margin="10,10,10,10">
+        <TextBlock Text=":הכנס מספר" VerticalAlignment="Top" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+            <TextBox x:Name="UserInputTextBox" Margin="0,0,0,10" Height="25" VerticalAlignment="Top" />
+        <Button Content="צור קוד" Height="30" VerticalAlignment="Top" Click="GenerateTotpButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
